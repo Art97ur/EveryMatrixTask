@@ -1,0 +1,25 @@
+.input-wrapper {
+    width: 100%;
+    height: 7%;
+    background-color: brown;
+}
+
+.input{
+    width: 70%;
+    height: 100%;
+    background-color: rgb(204, 204, 204);
+}
+
+.btn{
+    width: 30%;
+    height: 100%;
+    cursor: pointer;
+}
+
+@media(max-width:1000px){
+
+    .btn{
+        font-size: 8px;
+    }
+
+}

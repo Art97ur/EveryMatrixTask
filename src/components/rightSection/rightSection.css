@@ -1,0 +1,15 @@
+.right-wrapper{
+    width: calc(100% - 600px);
+    height: calc(100% - 60px);
+    
+}
+
+
+@media(max-width:1500px){
+    
+    .right-wrapper{
+        width: 90%;
+    }
+ 
+  
+}

@@ -1,0 +1,123 @@
+.medias-wrapper {
+    width: 100%;
+    height: 30%;
+    display: flex;
+}
+
+.medias{
+    width: 40%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.773);
+}
+
+.med{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.states{
+    width: 100%;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.states > p{
+    font-size: 10px;
+    color: white;
+    margin-left: 10px;
+}
+
+.med > p{
+    color: white;
+    margin: 10px;
+}
+
+.click{
+    width: 100%;
+    height: 20%;
+    background-color: rgb(26, 24, 24);
+    display: flex;
+    justify-content: flex-end;
+}
+
+.clickpage{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.clickpage > p{
+    color: rgb(148, 149, 149);
+    font-size: 14px;
+}
+.cl{
+    width: 10px;
+    height: 10px;
+    background-color: orange;
+}
+
+.view{
+    width: 10px;
+    height: 10px;
+    background-color: blue; 
+}
+
+.sign{
+    width: 10px;
+    height: 10px;
+    background-color: green;
+}
+
+.active{
+    width: 25%;
+    height: 100%;
+    background-color: rgb(27, 28, 29);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.act{
+    width:120px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: rgb(126, 121, 121);
+    border-radius: 50%;
+    border: 20px solid rgb(67, 118, 133);
+    border-top:20px solid orange;
+    border-left:20px solid orange;
+    border-right:20px solid blue;
+}
+
+
+.geograpick{
+    width: 35%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.773);
+    display: flex;
+    flex-direction: column;
+  
+}
+
+.data{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.data > p{
+    color: aliceblue;
+    margin: 10px;
+    
+}
